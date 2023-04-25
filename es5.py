@@ -12,6 +12,6 @@ def loo():
     env.play()
 
 p = Pattern(function = loo,time = 1)
-sc = Scope([wf])
+sc = Scope([wf,env])
 
 s.gui(locals())
